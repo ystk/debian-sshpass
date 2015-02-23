@@ -1,0 +1,42 @@
+sshpass (1.04-1) unstable; urgency=low
+
+  * Fix "fails when ssh asks for host key confirmation": sshpass now
+    detects the situation and returns a coded error (Closes: #506208)
+  * Several new upstream versions fixing some crashes
+  * Update the version file to explicitly state GPL version 2
+
+ -- Shachar Shemesh <shachar@debian.org>  Fri, 20 Feb 2009 11:25:27 +0000
+
+sshpass (1.01-2) unstable; urgency=medium
+
+  * sshpass taking 100% CPU while the ssh session is running (Closes:
+    #502585)
+  * Update policy version to 3.8.0.0 - Added "Homepage" to package.
+  * Fixed lintian warning about copyright file
+
+ -- Shachar Shemesh <shachar@debian.org>  Sat, 18 Oct 2008 08:13:59 +0200
+
+sshpass (1.01-1) unstable; urgency=low
+
+  * New upstream release
+  * Update policy version to 3.7.3 (no changes necessary)
+  * sshpass now passes tty resize to ssh (upstream fix) (Closes: #441083)
+  * Package now recommends ssh-client instead of depending on ssh
+    (Closes: #408707)
+
+ -- Shachar Shemesh <shachar@debian.org>  Wed, 09 Jan 2008 10:12:33 +0000
+
+sshpass (1.00-2) unstable; urgency=low
+
+  * Update the maintainer's email address (now a Debian Developer)
+  * Fix long description grammar (Closes: #360850)
+  * Update policy version to 3.7.2 (no changes necessary)
+
+ -- Shachar Shemesh <shachar@debian.org>  Tue, 17 Oct 2006 22:01:16 +0200
+
+sshpass (1.00-1) unstable; urgency=low
+
+  * Initial release Closes: 354800
+
+ -- Shachar Shemesh <debianpkg@shemesh.biz>  Tue, 28 Feb 2006 11:20:23 +0000
+
